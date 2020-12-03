@@ -7,10 +7,10 @@ index.html files changes:
 <!-- Removed div tags and replaced with semantics -->
 <img width="1440" alt="Screen Shot 2020-12-03 at 12 19 19 PM" src="https://user-images.githubusercontent.com/74025123/101083735-d36a7000-3561-11eb-8486-1ebe6b49f10f.png">
 
-Prior to the changes I made (didn't get a screenshot), index.html was strictly made of <div> tags. In order 
-to clean up the structure, all <div> tags were removed and replaced with semantic tags such as <header> ,<nav>, <figure>, <footer> and many more. Refer to screenshot link. 
+Prior to the changes I made (didn't get a screenshot), index.html was strictly made of div tags. In order 
+to clean up the structure, all div tags were removed and replaced with semantic tags such as header ,nav, figure, footer and many more. Refer to screenshot link. 
 
-Minor changes include changing the last header tag from <h2> to <h4> because headers should get smaller as we go down the site.
+Minor changes include changing the last header tag from h2 to h4 because headers should get smaller as we go down the site.
 
 For accessibility purposes, alt tags were added following all img src tags
 
@@ -43,5 +43,5 @@ Changed to...
 
 <!-- All css tags were adjusted accordingly to html changes -->
 Got rid of div classes in html, therefore css tags did not use a "."
-Before: html <div class= "header"> css .header {}
-After: html <header> css header {} 
+Before: html div class= "header" css .header {}
+After: html header css header {} 
