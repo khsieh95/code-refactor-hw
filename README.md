@@ -15,7 +15,7 @@ Minor changes include changing the last header tag from h2 to h4 because headers
 For accessibility purposes, alt tags were added following all img src tags
 
 style.css changes:
-<!-- Combined tags that had the same changes -->
+Combined tags that had the same changes
 <img width="1440" alt="Screen Shot 2020-12-03 at 12 15 00 PM" src="https://user-images.githubusercontent.com/74025123/101083139-648d1700-3561-11eb-8311-e83427c8ede9.png">
 
 Prior to changes, there were a lot of redundant codes to seperate classes. I combined the classes into one line followed by attaching the code. 
@@ -41,7 +41,10 @@ Changed to...
 } 
 (refer to screenshot)
 
-<!-- All css tags were adjusted accordingly to html changes -->
+All css tags were adjusted accordingly to html changes
+
 Got rid of div classes in html, therefore css tags did not use a "."
 Before: html div class= "header" css .header {}
 After: html header css header {} 
+
+Both the index.html and style.css have been optimized in such a way that the code is cleaner and more simplified, without damaging the existing site.
